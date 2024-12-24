@@ -1,0 +1,151 @@
+.task-list li {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #6c63ff, #91e3ff);
+    color: #333;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.header .logo {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header .logo span {
+    color: #ffdf70;
+}
+
+.header .tagline {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #ffdf70;
+}
+
+.main {
+    margin-top: 30px;
+}
+
+.intro-section {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.intro-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.intro-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    padding: 15px 30px;
+    background: #ffdf70;
+    color: #333;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    background: #ffd24c;
+}
+
+.goal-section,
+.task-section {
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.goal-section h2,
+.task-section h2 {
+    font-size: 1.8rem;
+    color: #6c63ff;
+    margin-bottom: 15px;
+}
+
+.goal-form input,
+.goal-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.goal-form button {
+    padding: 15px 30px;
+    background: #6c63ff;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.goal-form button:hover {
+    background: #574ed8;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list li {
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.task-list li span {
+    font-size: 1.5rem;
+    color: #6c63ff;
+    margin-right: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    margin-top: 30px;
+}
